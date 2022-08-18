@@ -58,7 +58,7 @@ header .container {
 .menu {
   display: flex;
   gap: 2rem;
-  align-items: center;
+  align-items: right;
 }
 
 /* NOT CONNECTED */
