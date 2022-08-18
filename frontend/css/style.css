@@ -13,7 +13,7 @@
   --font-color: #1464a7;
   --btn-bg-color: #ffffff;
   --accent-color: #0c4472;
-  --header-shadow: var(--accent-color) 0px 0px 5px;
+  --header-shadow: var(--accent-color) 0px 0px 8px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
 
@@ -52,7 +52,7 @@ header {
 header .container {
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
 }
 
 .menu {
