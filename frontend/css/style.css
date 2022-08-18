@@ -319,13 +319,13 @@ section {
 .splide {
   position: absolute;
   top: 90px;
-  left: 5rem;
+  right: 5rem;
   z-index: -1;
 }
 
 .splide__slide {
-  border: var(--accent-color) solid;
-  border-width: 1px 1px;
+  border: var(--bg-color) solid;
+  border-width: 2px 2px;
 }
 
 .splide__slide img {
