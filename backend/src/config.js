@@ -51,18 +51,18 @@ const CONTRACT_SYMBOL = 'SPS';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xEB18a3A5F04780524eE62e5740320c5049f7fa01';
 const TREASURY_ADDRESS = '0xEB18a3A5F04780524eE62e5740320c5049f7fa01';
-const MAX_SUPPLY = 25; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 2; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-08-25T22:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-08-25T22:30:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 250; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xEB18a3A5F04780524eE62e5740320c5049f7fa01"; // Address that will receive the royalty
-const BASE_URI = "ipfs://bafybeigayyslck3jhg5x7hrbg3b5t63ajemw35bubp7wtguhrxwsvqvbzy/"; // only update if you want to manually set the base uri
+const BASE_URI = "https://ipfs.io/ipfs/bafybeigayyslck3jhg5x7hrbg3b5t63ajemw35bubp7wtguhrxwsvqvbzy"; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
