@@ -6,8 +6,8 @@
 
 :root {
   --font-primary: "Poppins", sans-serif;
-  --font-secondary: "Arvo", serif;
-  --font-code: "Roboto", monospace;
+  --font-secondary: "Poppins", serif;  /*arvo*/
+  --font-code: "Poppins", monospace;  /*roboto*/
   --bg-color: #000000;
   --bg-color-transparent: #00000080;
   --font-color: #1578c9;
@@ -148,7 +148,7 @@ header .container {
   margin-bottom: 2rem;
   opacity: 0;
   transform: translateX(100vw);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .show-card {
