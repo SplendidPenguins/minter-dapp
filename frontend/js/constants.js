@@ -2,11 +2,11 @@ const contractAddress = "0x2fa180089d5c85a7dc6438A6199a360d7A28d34E"; // Replace
 const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Splendid Penguins";
-const welcome_h2 = "Connect to MetaMask to Get Started";
+const welcome_h2 = "Connect to MetaMask🦊 to Get Started";
 const welcome_p = 'A collection of 4500 unique penguins. One more splendid than other, all cute.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
-const h1_public_mint = "Splendi Penguins Minting Open!!";
+const h1_public_mint = "Splendid Penguins Minting Open!!";
 const h2_presale_coming_soon = "Pre-Sale Minting Countdown";
 const h2_presale_mint = "Public Minting Countdown";
 const p_presale_coming_soon = "We are working hard to launch the NFT Collection. Stay tuned for updates!";
