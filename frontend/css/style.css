@@ -10,9 +10,9 @@
   --font-code: "Roboto", monospace;
   --bg-color: #000000;
   --bg-color-transparent: #00000080;
-  --font-color: #1464a7;
+  --font-color: #1578c9;
   --btn-bg-color: #ffffff;
-  --accent-color: #0c4472;
+  --accent-color: #0a3558;
   --header-shadow: var(--accent-color) 0px 0px 8px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -131,7 +131,7 @@ header .container {
 }
 
 .hero-btn {
-  border-radius: 2rem;
+  border-radius: 4rem;
   font-size: 1.2rem;
   padding: 1.5rem 3rem;
 }
