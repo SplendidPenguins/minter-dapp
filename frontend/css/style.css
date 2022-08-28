@@ -12,6 +12,7 @@
   --bg-color-transparent: #00000080;
   --font-color: #139cec;
   --btn-bg-color: #ffffff;
+  --font-secondary-color: #ffffff;
   --accent-color: #0a3558;
   --header-shadow: var(--accent-color) 0px 0px 8px;
   --card-shadow: var(--accent-color) 0px 0px 16px;
@@ -35,7 +36,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 900px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;
@@ -64,7 +65,7 @@ header .container {
 /* NOT CONNECTED */
 .not-connected {
   align-items: center;
-  max-width: 500px;
+  max-width: 600px;
   height: 100%;
   text-align: center;
   margin: 0 auto 0 auto; /*35vh*/
@@ -93,7 +94,7 @@ header .container {
 
 .not-connected a {
   text-decoration: none;
-  color: var(--accent-color);
+  color: var(--font-secondary-color); /*--accent-color*/
   font-size: 1.5rem;
   font-weight: bold;
 }
