@@ -3,7 +3,7 @@ const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Splendid Penguins";
 const welcome_h2 = "Connect to MetaMask🦊 to Get Started";
-const welcome_p = 'A collection of 4500 unique penguins. One more splendid than other, all cute.';
+const welcome_p = 'A collection of 4500 unique penguins. One more splendid than other, all cute. Connect to Metamask and mint one for yourself.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Splendid Penguins Minting Open!!";
