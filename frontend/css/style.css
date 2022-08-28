@@ -89,9 +89,10 @@ header .container {
 }
 
 .not-connected p {
+  max-width: 500px;
   font-size: 1.1rem;
   font-family: var(--font-secondary);
-  color: var(--font-color);
+  color: var(--font-secondary-color);
   line-height: 1.8;
 }
 
