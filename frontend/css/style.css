@@ -81,6 +81,7 @@ header .container {
 
 .not-connected h1 {
   text-shadow: 2px 2px 0 var(--accent-color);
+  color: var(--font-color);
   font-style: italic;
   margin: 2rem 0;
   font-size: 3.5rem;
@@ -89,6 +90,7 @@ header .container {
 .not-connected p {
   font-size: 1.1rem;
   font-family: var(--font-secondary);
+  color: var(--font-secondary-color); /*--accent-color*/
   line-height: 1.8;
 }
 
