@@ -82,12 +82,12 @@ header .container {
 .not-connected h1 {
   /*text-shadow: 4px 4px 0 var(--accent-color);
   color: var(--font-color);*/
-  background: linear-gradient(--font-color, --accent-color);
+  background: linear-gradient(var(--font-color), var(--accent-color));
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-style: italic;
   margin: 2rem 0;
-  font-size: 3.5rem;
+  font-size: 5rem;
 }
 
 .not-connected p {
