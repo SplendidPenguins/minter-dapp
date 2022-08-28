@@ -65,7 +65,7 @@ header .container {
 /* NOT CONNECTED */
 .not-connected {
   align-items: center;
-  max-width: 700px;
+  max-width: 600px;
   height: 100%;
   text-align: center;
   margin: 0 auto 0 auto; /*35vh*/
@@ -80,9 +80,7 @@ header .container {
 }
 
 .not-connected h1 {
-  /*text-shadow: 4px 4px 0 var(--accent-color);
-  color: var(--font-color);*/
-  background: -webkit-linear-gradient(to right, var(--font-color), var(--accent-color));
+  background: -webkit-linear-gradient(var(--font-color), var(--accent-color));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-style: italic;
