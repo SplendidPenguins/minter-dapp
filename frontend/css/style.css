@@ -80,10 +80,10 @@ header .container {
 }
 
 .not-connected h1 {
-  text-shadow: 4px 4px 0 var(--accent-color);
-  /*color: var(--font-color);*/
-  background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
+  /*text-shadow: 4px 4px 0 var(--accent-color);
+  color: var(--font-color);*/
+  background: linear-gradient(--font-color, --accent-color);
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-style: italic;
   margin: 2rem 0;
