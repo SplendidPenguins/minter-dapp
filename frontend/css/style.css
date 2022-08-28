@@ -80,7 +80,7 @@ header .container {
 }
 
 .not-connected h1 {
-  background: -webkit-linear-gradient(var(--font-secondary-color), var(--accent-color));
+  background: -webkit-linear-gradient(to right, var(--font-secondary-color), var(--accent-color));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-style: italic;
@@ -89,7 +89,7 @@ header .container {
 }
 
 .not-connected p {
-  max-width: 500px;
+  max-width: 600px;
   font-size: 1.1rem;
   font-family: var(--font-secondary);
   color: var(--font-secondary-color);
