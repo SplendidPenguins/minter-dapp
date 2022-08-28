@@ -10,9 +10,9 @@
   --font-code: "Poppins", monospace;  /*roboto*/
   --bg-color: #000000;
   --bg-color-transparent: #00000080;
-  --font-color: #139cec;
+  --font-color:  #ffffff;
   --btn-bg-color: #ffffff;
-  --font-secondary-color: #ffffff;
+  --font-secondary-color: #139cec;;
   --accent-color: #0a3558;
   --header-shadow: var(--accent-color) 0px 0px 8px;
   --card-shadow: var(--accent-color) 0px 0px 16px;
@@ -191,7 +191,7 @@ section {
 }
 .countdown .clock-item .count-number {
   background: var(--accent-color);
-  color: var(--font-secondary-color); /*font color*/
+  color: var(--font-color);
   font-size: 2rem;
   font-weight: 700;
   font-family: var(--font-secondary);
@@ -293,7 +293,7 @@ section {
 }
 
 .total-price-container p {
-  color: var(--font-secondary-color); /*font-color*/
+  color: var(--font-color);
 }
 
 /* MINTED CONTAINER */
