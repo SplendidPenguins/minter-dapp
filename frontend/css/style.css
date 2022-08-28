@@ -65,7 +65,7 @@ header .container {
 /* NOT CONNECTED */
 .not-connected {
   align-items: center;
-  max-width: 600px;
+  max-width: 700px;
   height: 100%;
   text-align: center;
   margin: 0 auto 0 auto; /*35vh*/
@@ -80,7 +80,7 @@ header .container {
 }
 
 .not-connected h1 {
-  background: -webkit-linear-gradient(var(--font-color), var(--accent-color));
+  background: -webkit-linear-gradient(var(--font-secondary-color), var(--accent-color));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-style: italic;
@@ -91,7 +91,7 @@ header .container {
 .not-connected p {
   font-size: 1.1rem;
   font-family: var(--font-secondary);
-  color: var(--font-secondary-color);
+  color: var(--font-color);
   line-height: 1.8;
 }
 
