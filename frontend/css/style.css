@@ -81,7 +81,7 @@ header .container {
 
 .not-connected h1 {
   background: linear-gradient(to right, var(--font-secondary-color), #6726a3);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-style: italic;
   margin: 2rem 0;
