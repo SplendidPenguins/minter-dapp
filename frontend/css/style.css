@@ -279,8 +279,7 @@ section {
   padding: 1rem;
   vertical-align: top;
   text-align: center;
-  /*outline: none;
-  background-color: #6726a3; /*test*/
+  outline: solid;
 }
 
 .input-number,
