@@ -217,8 +217,6 @@ section {
 }
 
 .countdown h1 {
-  /*color: var(--font-secondary-color);
-  text-shadow: 2px 2px 0 var(--accent-color);*/
   background: linear-gradient(to right, var(--font-secondary-color), #6726a3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -262,7 +260,7 @@ section {
   align-items: center;
   padding: 1rem;
   background-color: var(--accent-color);
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .mint-qty > span {
@@ -282,6 +280,7 @@ section {
   vertical-align: top;
   text-align: center;
   outline: none;
+  background-color: #6726a3; /*test*/
 }
 
 .input-number,
