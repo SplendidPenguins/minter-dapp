@@ -279,21 +279,19 @@ section {
   padding: 1rem;
   vertical-align: top;
   text-align: center;
-  outline: solid;
-  outline-color: #000000; /*test*/
 }
 
 .input-number,
 .input-number-decrement,
 .input-number-increment {
   user-select: none;
-  background-color: #6726a3;
+  border-color: #000000;
 }
 
 .total-price-container {
   display: flex;
   justify-content: space-between;
-  width: 20%; /*test*/
+  width: 100%;
   padding: 1rem 0 2rem;
 }
 
