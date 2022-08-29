@@ -222,9 +222,9 @@ section {
   background: linear-gradient(to right, var(--font-secondary-color), #6726a3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  /*font-style: italic;*/
-  margin: 1rem 0;
-  font-size: 3rem;
+  font-style: italic;
+  margin: 2rem 0;
+  font-size: 3.2rem;
   text-align: center;
 }
 
