@@ -6,8 +6,8 @@
 
 :root {
   --font-primary: "Fugaz One", cursive;
-  --font-secondary: "Poppins", serif;  /*arvo*/
-  --font-code: "Poppins", monospace;  /*roboto*/
+  --font-secondary: "Poppins", sans-serif;  /*arvo*/
+  --font-code: "Poppins", sans-serif;  /*roboto*/
   --bg-color: #000000;
   --bg-color-transparent: #00000080;
   --font-color:  #ffffff;
@@ -83,7 +83,7 @@ header .container {
   background: linear-gradient(to right, var(--font-secondary-color), #6726a3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-style: italic;
+  /*font-style: italic;*/
   margin: 2rem 0;
   font-size: 4rem;
 }
@@ -220,7 +220,7 @@ section {
   background: linear-gradient(to right, var(--font-secondary-color), #6726a3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-style: italic;
+  /*font-style: italic;*/
   margin: 2rem 0;
   font-size: 3.2rem;
   text-align: center;
