@@ -92,13 +92,14 @@ header .container {
   font-family: var(--font-secondary);
   color: var(--font-secondary-color);
   line-height: 1.8;
+  padding: 0 50px;
 }
 
 .not-connected a {
   text-decoration: none;
   color: var(--font-secondary-color);
   font-size: 1.5rem;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 /* BUTTONS */
