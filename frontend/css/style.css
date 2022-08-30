@@ -88,6 +88,7 @@ header .container {
 }
 
 .not-connected p {
+  align-items: center;
   max-width: 600px;
   font-size: 1.1rem;
   font-family: var(--font-secondary);
