@@ -88,13 +88,11 @@ header .container {
 }
 
 .not-connected p {
-  align-items: center;
   max-width: 600px;
   font-size: 1.1rem;
   font-family: var(--font-secondary);
   color: var(--font-secondary-color);
   line-height: 1.8;
-  text-align: center;
 }
 
 .not-connected a {
