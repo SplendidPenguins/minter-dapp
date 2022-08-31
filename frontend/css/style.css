@@ -220,13 +220,12 @@ section {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 2rem 0;
-  font-size: 3.5rem;
+  font-size: 3.8rem;
   text-align: center;
 }
 
 .countdown h2 {
   margin-top: 1rem;
-  color: #6726a3; /*search*/
 }
 
 .countdown > p {
@@ -251,6 +250,7 @@ section {
   width: 100%;
   text-align: center;
   margin-bottom: 2rem;
+  color:#6726a3;
 }
 
 .mint-qty {
