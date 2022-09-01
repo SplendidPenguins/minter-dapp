@@ -145,7 +145,7 @@ header .container {
 
 .card {
   position: relative;
-  max-width: 600px;
+  max-width: 650px;
   background-color: var(--bg-color);
   border-radius: 40px;
   border: 3px solid var(--accent-color);
@@ -220,7 +220,7 @@ section {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 2rem 0;
-  font-size: 3.8rem;
+  font-size: 4rem;
   text-align: center;
 }
 
@@ -250,7 +250,7 @@ section {
   width: 100%;
   text-align: center;
   margin-bottom: 2rem;
-  color:#6726a3;
+  color:#6726a3; /*found*/
 }
 
 .mint-qty {
