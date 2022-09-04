@@ -250,7 +250,7 @@ section {
   width: 100%;
   text-align: center;
   margin-bottom: 2rem;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-weight: normal;
 }
 
@@ -286,6 +286,7 @@ section {
 .input-number-increment {
   user-select: none;
   border-color: #000000;
+  border-radius: 5px;
 }
 
 .total-price-container {
@@ -293,7 +294,7 @@ section {
   justify-content: space-between;
   width: 100%;
   padding: 1rem 0 2rem;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
 }
 
 .total-price-container p {
