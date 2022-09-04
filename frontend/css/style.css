@@ -250,7 +250,8 @@ section {
   width: 100%;
   text-align: center;
   margin-bottom: 2rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: normal;
 }
 
 .mint-qty {
@@ -292,11 +293,12 @@ section {
   justify-content: space-between;
   width: 100%;
   padding: 1rem 0 2rem;
+  font-size: 1.1rem;
 }
 
 .total-price-container p {
   color: var(--font-color);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 /* MINTED CONTAINER */
