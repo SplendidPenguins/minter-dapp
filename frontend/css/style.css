@@ -250,7 +250,7 @@ section {
   width: 100%;
   text-align: center;
   margin-bottom: 2rem;
-  color:#6726a3; /*found*/
+  font-size: 1.2rem;
 }
 
 .mint-qty {
@@ -296,6 +296,7 @@ section {
 
 .total-price-container p {
   color: var(--font-color);
+  font-size: 1.2rem;
 }
 
 /* MINTED CONTAINER */
