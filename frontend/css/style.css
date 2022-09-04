@@ -277,7 +277,7 @@ section {
 
 .input-number {
   height: 100%;
-  padding: 0.5rem;
+  padding: 1rem 0.5rem;
   vertical-align: top;
   text-align: center;
 }
@@ -287,6 +287,10 @@ section {
 .input-number-increment {
   user-select: none;
   border-color: #000000;
+}
+
+.input-number-decrement{
+  border-radius: 4px 0px 0px 4px;
 }
 
 .total-price-container {
