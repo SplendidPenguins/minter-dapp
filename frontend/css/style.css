@@ -275,13 +275,6 @@ section {
   margin: auto;
 }
 
-.input-number {
-  height: 100%;
-  padding: 1rem 0.5rem;
-  vertical-align: top;
-  text-align: center;
-}
-
 .input-number,
 .input-number-decrement,
 .input-number-increment {
@@ -289,8 +282,20 @@ section {
   border-color: #000000;
 }
 
+.input-number {
+  height: 100%;
+  padding: 1rem 0.5rem;
+  vertical-align: top;
+  text-align: center;
+  border-top: none;
+}
+
 .input-number-decrement{
-  border-radius: 4px 0px 0px 4px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.input-number-increment{
+  border-radius: 0px 5px 5px 0px;
 }
 
 .total-price-container {
