@@ -299,6 +299,10 @@ section {
   border-radius: 0px 5px 5px 0px;
 }
 
+.input-max{
+  border-radius: 2rem;
+}
+
 .total-price-container {
   display: flex;
   justify-content: space-between;
