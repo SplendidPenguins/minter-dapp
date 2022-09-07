@@ -3,14 +3,14 @@ const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Splendid Penguins";
 const welcome_h2 = "Connect to MetaMask🦊 to Get Started";
-const welcome_p = 'A collection of 4500 unique penguins. One more splendid than other, all cute. Connect to Metamask and mint one for yourself.';
+const welcome_p = 'An NFT collection of 4500 unique penguins. One more splendid than other, all cute. Connect to Metamask and mint one for yourself.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Splendid Penguins";
 const h1_public_mint = "Splendid Penguins";
 const h2_presale_coming_soon = "Splendid Penguins";
 const h2_presale_mint = "Public Minting Countdown";
 const p_presale_coming_soon = "We are working hard to launch the NFT Collection. Stay tuned for updates!";
-const p_presale_mint_not_whitelisted = "Splendid Penguins is a collection of 4500 unique penguins. One more splendid than other, all cute. Mint one for yourself soon.";
+const p_presale_mint_not_whitelisted = "Splendid Penguins is an NFT collection of 4500 unique penguins. One more splendid than other, all cute. Mint one for yourself soon.";
 const p_presale_mint_whitelisted = "You're on the whitelist for the pre-sale!";
 const p_presale_mint_already_minted = "You've already claimed your whitelist mint. Thank you!";
 const p_public_mint = "Splendid Penguins is a collection of 4500 unique penguins. One more splendid than other, all cute. Mint yours now!";

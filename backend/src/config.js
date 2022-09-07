@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Splendid Penguins";
-const description = "A collection of 4500 unique penguins. One more splendid than other, all cute.";
+const description = "NFT collection of 4500 unique penguins. One more splendid than other, all cute.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
@@ -53,10 +53,10 @@ const OWNER_ADDRESS = '0xEB18a3A5F04780524eE62e5740320c5049f7fa01';
 const TREASURY_ADDRESS = '0xEB18a3A5F04780524eE62e5740320c5049f7fa01';
 const MAX_SUPPLY = 25; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 2; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 3; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-09-25T22:30:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-09-06T22:30:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-08-20T16:30:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
