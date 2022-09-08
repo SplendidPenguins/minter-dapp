@@ -78,6 +78,8 @@ const updateConnectStatus = async () => {
     window.address = accounts[0];
     onboardButton.disabled = true;
     onboarding.stopOnboarding();
+    notInstalled.classList.remove('show-not-installed');  //added
+    notInstalled.classList.add('hidden');  //added
     notConnected.classList.remove('show-not-connected');
     notConnected.classList.add('hidden');
     // SHOW SPINNER
@@ -87,6 +89,8 @@ const updateConnectStatus = async () => {
   } else {
     onboardButton.innerText = "Connect MetaMask!";
     // HIDE SPINNER
+    notInstalled.classList.remove('show-not-installed');  //added
+    notInstalled.classList.add('hidden');  //added
     spinner.classList.add('hidden');
     notConnected.classList.remove('hidden');
     notConnected.classList.add('show-not-connected');
