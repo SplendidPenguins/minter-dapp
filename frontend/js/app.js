@@ -7,12 +7,14 @@ window.addEventListener("DOMContentLoaded", async () => {
   const welcomeH3 = document.getElementById("welcomeH3");  //added
   const welcomeH4 = document.getElementById("welcomeH4");  //added
   const welcomeP = document.getElementById("welcomeP");
+  const welcomeP2 = document.getElementById("welcomeP2");  //added
 
   welcomeH1.innerText = welcome_h1;
   welcomeH2.innerText = welcome_h2;
   welcomeH3.innerText = welcome_h3;  //added
   welcomeH4.innerText = welcome_h4;  //added
   welcomeP.innerHTML = welcome_p;
+  welcomeP.innerHTML = welcome_p2;  //added
 
   if (window.ethereum) {
     window.web3 = new Web3(window.ethereum);
