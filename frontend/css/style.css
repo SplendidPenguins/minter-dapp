@@ -103,6 +103,7 @@ header .container {
 
 /* NOT INSTALLED */
 .not-installed {
+  position: relative;
   align-items: center;
   max-width: 800px;
   height: 100%;
