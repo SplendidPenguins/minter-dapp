@@ -4,10 +4,12 @@ let accounts;
 window.addEventListener("DOMContentLoaded", async () => {
   const welcomeH1 = document.getElementById("welcomeH1");
   const welcomeH2 = document.getElementById("welcomeH2");
+  const welcomeH3 = document.getElementById("welcomeH3");  //added
   const welcomeP = document.getElementById("welcomeP");
 
   welcomeH1.innerText = welcome_h1;
   welcomeH2.innerText = welcome_h2;
+  welcomeH3.innerText = welcome_h3;  //added
   welcomeP.innerHTML = welcome_p;
 
   if (window.ethereum) {
@@ -50,14 +52,23 @@ const updateConnectStatus = async () => {
   const onboarding = new MetaMaskOnboarding();
   const onboardButton = document.getElementById("connectWallet");
   const notConnected = document.querySelector('.not-connected');
+  const notInstalled = document.querySelector('.not-installed');  //added
   const spinner = document.getElementById("spinner");
   if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
+    //added start
+    spinner.classList.add('hidden');
+    notInstalled.classList.remove('hidden');
+    notInstalled.classList.add('show-not-installed');   
+    //added end
     onboardButton.innerText = "Install MetaMask!";
     onboardButton.onclick = () => {
+      spinner.classList.remove('hidden'); //added
       onboardButton.innerText = "Connecting...";
       onboardButton.disabled = true;
       onboarding.startOnboarding();
       // HIDE SPINNER
+      notInstalled.classList.remove('show-not-installed');  //added
+      notInstalled.classList.add('hidden');  //added
       spinner.classList.add('hidden');
       notConnected.classList.remove('hidden');
       notConnected.classList.add('show-not-connected');

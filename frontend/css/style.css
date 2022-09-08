@@ -102,6 +102,46 @@ header .container {
   /*font-weight: bold;*/
 }
 
+/* NOT INSTALLED */
+.not-installed {
+  align-items: center;
+  max-width: 800px;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto 0 auto; /*35vh*/
+  opacity: 0;
+  transform: translateY(10vh);
+  transition: all 0.3s ease-in-out;
+}
+
+.show-not-installed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.not-installed h1 {
+  background: linear-gradient(to right, var(--font-secondary-color), #6726a3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 2rem 0;
+  font-size: 5rem;
+}
+
+.not-installed p {
+  font-size: 1.1rem;
+  font-family: var(--font-secondary);
+  color: var(--font-secondary-color);
+  line-height: 1.8;
+  padding: 0 8%;
+}
+
+.not-installed a {
+  text-decoration: none;
+  color: var(--font-secondary-color);
+  font-size: 1.5rem;
+  /*font-weight: bold;*/
+}
+
 /* BUTTONS */
 
 .btn {
@@ -380,6 +420,12 @@ section {
     max-width: 8rem;
   }
   .not-connected {
+    background-color: var(--bg-color-transparent);
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  .not-installed { /*added*/
     background-color: var(--bg-color-transparent);
     border-radius: 5px;
     padding: 2rem;
