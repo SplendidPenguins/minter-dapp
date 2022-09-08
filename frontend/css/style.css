@@ -103,12 +103,11 @@ header .container {
 
 /* NOT INSTALLED */
 .not-installed {
-  position: relative;
-  /*align-items: center;*/
+  align-items: center;
   max-width: 800px;
   height: 100%;
   text-align: center;
-  margin: 0 auto 0 auto; /*35vh*/
+  margin: 35vh auto 0 auto; /*35vh*/
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.3s ease-in-out;
