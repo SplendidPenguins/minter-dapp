@@ -13,7 +13,7 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 25,
+    growEditionSizeTo: 4500,
     layersOrder: [
       { name: "Background" },
       { name: "Body" },
@@ -35,7 +35,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://steady-fairy-acb297.netlify.app", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://splendidpenguins.com", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -48,11 +48,11 @@ const CHAIN = 'rinkeby'; // only rinkeby, polygon, or ethereum
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Splendid Penguins';
 const CONTRACT_SYMBOL = 'SPS';
-const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
+const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xEB18a3A5F04780524eE62e5740320c5049f7fa01';
 const TREASURY_ADDRESS = '0xEB18a3A5F04780524eE62e5740320c5049f7fa01';
-const MAX_SUPPLY = 25; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MAX_SUPPLY = 4500; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MINT_PRICE = 0.025; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 3; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
@@ -62,7 +62,7 @@ const PUBLIC_MINT_START_DATE = "2022-09-06T22:30:00+00:00"; // This is required.
 const PRESALE_MINT_START_DATE = "2022-08-20T16:30:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 250; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xEB18a3A5F04780524eE62e5740320c5049f7fa01"; // Address that will receive the royalty
-const BASE_URI = "ipfs://bafybeifnmdarsnxcq7flav7g72xptffigdchuhpdigdzxzjjumwacvmnmu/"; // only update if you want to manually set the base uri
+const BASE_URI = "ipfs://bafybeifiiworvofbc4muvfqf6dehxco5dsd3yxzzvj55horennkzodpxgu/"; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
