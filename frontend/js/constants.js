@@ -2,8 +2,9 @@ const contractAddress = "0x9d44299a3456b0a95eB4FE06257C79f85D036346"; // Replace
 const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Splendid Penguins";
-const welcome_h2 = "Connect to MetaMask🦊 to Get Started";  //added
-const welcome_h3 = "Install MetaMask🦊 to Get Started";
+const welcome_h2 = "Connect to MetaMask🦊 to Get Started";
+const welcome_h3 = "Splendid Penguins";
+const welcome_h4 = "Install MetaMask🦊 to Get Started";  //added
 const welcome_p = 'An NFT collection of 4500 unique penguins. One more splendid than other, all cute. Connect to Metamask and mint one for yourself.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Splendid Penguins";
