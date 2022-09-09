@@ -9,7 +9,7 @@
   --font-secondary: "Poppins", sans-serif;  /*arvo*/
   --font-code: "Poppins", sans-serif;  /*roboto*/
   --bg-color: #000000;
-  --bg-color-transparent: #00000080;
+  --bg-color-transparent: #00000091;
   --font-color:  #ffffff;
   --btn-bg-color: #ffffff;
   --font-secondary-color: #139cec;
@@ -388,8 +388,9 @@ section {
 .splide {
   position: absolute;
   top: 90px;
-  left: 4rem;
+  left: 3.8rem;
   z-index: -1;
+  height: auto; /*test*/
 }
 
 .splide__slide {
