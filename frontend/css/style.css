@@ -94,7 +94,7 @@ header .container {
   color: var(--font-secondary-color);
   line-height: 1.8;
   padding: 0 15%;
-  text-align: justify;
+  /*text-align: justify;*/
 }
 
 .not-connected a {
