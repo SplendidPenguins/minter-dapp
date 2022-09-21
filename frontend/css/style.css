@@ -85,7 +85,7 @@ header .container {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 2rem 0;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .not-connected p {
@@ -125,7 +125,7 @@ header .container {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 2rem 0;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .not-installed p {
