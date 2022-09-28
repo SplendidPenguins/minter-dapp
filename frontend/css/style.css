@@ -413,23 +413,23 @@ section {
 
 @media screen and (max-width: 768px) {
   .menu {
-    gap: 1rem;
+    gap: 0.5rem;
   }
   .wallet-btn {
     margin-left: 0;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     max-width: 8rem;
   }
   .not-connected {
     background-color: var(--bg-color-transparent);
     border-radius: 5px;
-    padding: 2rem;
+    padding: 1.5rem;
     margin: 0 auto;
   }
   .not-installed { /*added*/
     background-color: var(--bg-color-transparent);
     border-radius: 5px;
-    padding: 2rem;
+    padding: 1.5rem;
     margin: 0 auto;
   }
   .countdown ul {
