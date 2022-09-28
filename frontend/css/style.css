@@ -430,6 +430,10 @@ section {
     margin: 1rem 0;
     font-size: 3rem;
   }
+  .not-connected p { /*added*/
+    padding: 0 5%;
+    text-align: justify;
+  }
   .not-installed { /*added*/
     background-color: var(--bg-color-transparent);
     border-radius: 5px;
