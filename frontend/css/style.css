@@ -383,11 +383,6 @@ section {
   font-family: var(--font-secondary);
 }
 
-.minted-container p1 {
-  margin: 0.5rem 0;
-  font-family: var(--font-secondary);
-}
-
 /* SLIDDER */
 
 .splide {
