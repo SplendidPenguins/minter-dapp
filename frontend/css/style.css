@@ -146,12 +146,15 @@ header .container {
 /* BOTTOM */
 
 .lottery {
+  background-color: var(#ffffff);
   font-family: var(--font-secondary);
+  color: var(--accent-color);
+  text-align: center;
 }
 
 .lottery .responsive {
   width: 100%;
-  max-width: 20px;
+  max-width: 300px;
   height: auto;
 }
 
