@@ -181,7 +181,7 @@ header .container {
 
 
 .lottery-details {
-  position: relative;
+  position: static;
   background-color: #ffffff;
   color: var(--accent-color);
   text-align: center;
