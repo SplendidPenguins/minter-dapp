@@ -28,7 +28,7 @@ body {
   background-color: var(--bg-color);
   display: flex;
   flex-flow: column;
-  height: auto; /*100hv*/
+  height: 100hv; /*auto*/
   color: var(--font-color);
   font-family: var(--font-primary);
   margin-bottom: 0;
@@ -151,7 +151,7 @@ header .container {
   font-family: var(--font-secondary);
   color:#ffffff;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
   margin-top: 0;
 }
 
