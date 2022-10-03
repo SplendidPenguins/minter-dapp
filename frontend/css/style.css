@@ -28,7 +28,7 @@ body {
   background-color: var(--bg-color);
   display: flex;
   flex-flow: column;
-  height: 100hv; /*auto*/
+  height: auto;
   color: var(--font-color);
   font-family: var(--font-primary);
   margin-bottom: 0;
@@ -153,6 +153,8 @@ header .container {
   text-align: center;
   padding: 2rem;
   margin-top: 0;
+  position: relative;
+  bottom: 100;
 }
 
 .lottery .responsive {
