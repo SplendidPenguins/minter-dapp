@@ -151,7 +151,6 @@ header .container {
   color:#ffffff;
   text-align: center;
   padding: 2rem;
-  margin-top: 0;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -168,7 +167,7 @@ header .container {
 .lottery p {
   font-family: var(--font-secondary);
   font-size: 1.1rem;
-  max-width: 800px;
+  padding: 30%;
 }
 
 
