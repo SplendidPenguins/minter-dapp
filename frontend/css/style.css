@@ -146,7 +146,7 @@ header .container {
 /* BOTTOM */
 
 .lottery {
-  background-color: var(#ffffff);
+  background-color: #ffffff;
   font-family: var(--font-secondary);
   color: var(--accent-color);
   text-align: center;
