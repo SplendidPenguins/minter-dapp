@@ -171,6 +171,7 @@ header .container {
   font-family: var(--font-secondary);
   font-size: 1.1rem;
   padding: 0 20%;
+  margin-bottom: 2rem;
 }
 
 .responsive {
