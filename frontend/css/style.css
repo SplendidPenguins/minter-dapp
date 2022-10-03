@@ -149,7 +149,7 @@ header .container {
   font-family: var(--font-secondary);
 }
 
-.lottery .resposive {
+.lottery .responsive {
   width: 100%;
   max-width: 20px;
   height: auto;
