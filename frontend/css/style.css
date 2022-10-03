@@ -68,7 +68,7 @@ header .container {
 .not-connected {
   align-items: center;
   max-width: 800px;
-  height: 100%;
+  /*height: 100%;*/
   text-align: center;
   margin: 0 auto; /*35vh*/
   opacity: 0;
@@ -167,7 +167,7 @@ header .container {
 .lottery p {
   font-family: var(--font-secondary);
   font-size: 1.1rem;
-  padding: 0 25%;
+  padding: 0 20%;
 }
 
 
