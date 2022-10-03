@@ -108,7 +108,7 @@ header .container {
 .not-installed {
   align-items: center;
   max-width: 800px;
-  height: 100%;
+  height: auto;
   text-align: center;
   margin: 0 auto 0 auto; /*35vh*/
   opacity: 0;
@@ -203,19 +203,12 @@ header .container {
   font-size: 1.1rem;
   padding: 0 20%;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .lottery-details p1 {
   font-family: var(--font-primary);
   font-size: 1.1rem;
-
-}
-
-.lottery-details p2 {
-  font-family: var(--font-primary);
-  font-size: 1.1rem;
-
 }
 
 /* BUTTONS */
@@ -267,7 +260,7 @@ header .container {
   border: 3px solid var(--accent-color);
   box-shadow: var(--card-shadow);
   padding: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   opacity: 0;
   transform: translateX(100vw);
   transition: all 0.3s ease-in-out;
