@@ -68,7 +68,7 @@ header .container {
 .not-connected {
   align-items: center;
   max-width: 800px;
-  height: 90vh;
+  height: auto;
   text-align: center;
   margin: 0 auto; /*35vh*/
   opacity: 0;
