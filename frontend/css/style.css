@@ -405,6 +405,7 @@ section {
   top: 90px;
   left: 3.8rem;
   z-index: -1;
+  margin-bottom: 0;
 }
 
 .splide__slide {
