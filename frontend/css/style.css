@@ -66,6 +66,7 @@ header .container {
 
 /* NOT CONNECTED */
 .not-connected {
+  position: relative;
   align-items: center;
   max-width: 800px;
   height: auto;
