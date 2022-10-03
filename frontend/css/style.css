@@ -172,10 +172,43 @@ header .container {
   padding: 0 20%;
 }
 
-.lottery .responsive {
+.responsive {
   width: 100%;
   max-width: 300px;
   height: auto;
+}
+
+
+.lottery-details {
+  position: relative;
+  background-color: #ffffff;
+  color: var(--accent-color);
+  text-align: center;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.lottery-details h1 {
+  font-family: var(--font-primary);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.lottery-details p {
+  font-family: var(--font-secondary);
+  font-size: 1.1rem;
+  padding: 0 20%;
+}
+
+.lottery-details p1 {
+  font-family: var(--font-primary);
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
 }
 
 /* BUTTONS */
