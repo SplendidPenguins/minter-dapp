@@ -196,12 +196,12 @@ header .container {
   overflow: hidden;
 }
 
-.lottery-details h1 {
+.lottery-details h2 {
   font-family: var(--font-primary);
   font-size: 1.5rem;
 }
 
-.lottery-details p {
+.lottery-details p1 {
   font-family: var(--font-secondary);
   font-size: 1.1rem;
   padding: 0 20%;
@@ -209,7 +209,7 @@ header .container {
   margin-bottom: 0.75rem;
 }
 
-.lottery-details p1 {
+.lottery-details p2 {
   font-family: var(--font-primary);
   font-size: 1.1rem;
 }
