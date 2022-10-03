@@ -86,7 +86,7 @@ header .container {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 2rem 0;
-  font-size: 10vh; /*4rem*/
+  font-size: 30vw; /*4rem*/
 }
 
 .not-connected p {
