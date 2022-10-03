@@ -153,8 +153,8 @@ header .container {
   text-align: center;
   padding: 2rem;
   margin-top: 0;
-  position: relative;
-  top: 100%;
+  position: fixed;
+  top: 90%;
 }
 
 .lottery .responsive {
