@@ -167,7 +167,7 @@ header .container {
 .lottery p {
   font-family: var(--font-secondary);
   font-size: 1.1rem;
-  padding: 30%;
+  padding: 0 25%;
 }
 
 
