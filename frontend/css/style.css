@@ -196,19 +196,26 @@ header .container {
 .lottery-details h1 {
   font-family: var(--font-primary);
   font-size: 1.5rem;
-  margin-bottom: 1rem;
 }
 
 .lottery-details p {
   font-family: var(--font-secondary);
   font-size: 1.1rem;
   padding: 0 20%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .lottery-details p1 {
   font-family: var(--font-primary);
   font-size: 1.1rem;
-  margin-bottom: 1rem;
+
+}
+
+.lottery-details p2 {
+  font-family: var(--font-primary);
+  font-size: 1.1rem;
+
 }
 
 /* BUTTONS */
