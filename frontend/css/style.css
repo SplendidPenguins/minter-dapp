@@ -145,6 +145,10 @@ header .container {
 
 /* BOTTOM */
 
+.container .lottery{
+  background-color: var(#ffffff);
+}
+
 .lottery {
   background-color: var(#ffffff);
   font-family: var(--font-secondary);
