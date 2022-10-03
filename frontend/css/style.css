@@ -148,14 +148,22 @@ header .container {
 
 .lottery {
   background-color: var(--accent-color);
-  font-family: var(--font-secondary);
   color:#ffffff;
   text-align: center;
   padding: 2rem;
   margin-top: 0;
-  position: static;
-  top: 70vh;
 }
+
+.lottery h1 {
+  font-family: var(--font-primary);
+  font-size: 1.5rem;
+}
+
+.lottery p {
+  font-family: var(--font-secondary);
+  font-size: 1.1rem;
+}
+
 
 .lottery .responsive {
   width: 100%;
