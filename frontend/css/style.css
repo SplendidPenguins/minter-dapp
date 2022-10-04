@@ -95,6 +95,7 @@ header .container {
   color: var(--font-secondary-color);
   line-height: 1.8;
   padding: 0 15%;
+  margin-bottom: 1rem;
   text-align: justify;
 }
 
