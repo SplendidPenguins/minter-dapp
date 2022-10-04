@@ -519,6 +519,13 @@ section {
   .lottery {
     position: relative;
   }
+  .lottery p {
+    padding: 0 5%;
+    margin-bottom: 1rem;
+  }
+  .lottery-details p1 {
+    padding: 0 5%;
+  }
   .not-installed h1 { /*added*/
     margin: 1rem 0;
     font-size: 3rem;
