@@ -214,6 +214,10 @@ header .container {
   font-size: 1.1rem;
 }
 
+.lottery-details .responsive {
+  border-radius: 15%;
+}
+
 /* BUTTONS */
 
 .btn {
