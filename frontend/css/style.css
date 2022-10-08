@@ -93,8 +93,8 @@ header .container {
   font-size: 1.1rem;
   font-family: var(--font-secondary);
   color: var(--font-secondary-color);
-  line-height: 1.8;
-  padding: 0 15%;
+  line-height: 1.5;
+  padding: 0 12%;
   margin-bottom: 1rem;
   text-align: justify;
 }
@@ -134,8 +134,8 @@ header .container {
   font-size: 1.1rem;
   font-family: var(--font-secondary);
   color: var(--font-secondary-color);
-  line-height: 1.8;
-  padding: 0 15%;
+  line-height: 1.5;
+  padding: 0 12%;
   text-align: justify;
   margin-bottom: 1rem;
 }
@@ -509,7 +509,9 @@ section {
     font-size: 3rem;
   }
   .not-connected p { /*added*/
-    padding: 0 5%;
+    padding: 0 1%;
+    line-height: 1;
+    font-size: 1rem;
     text-align: justify;
   }
   .not-installed { /*added*/
@@ -517,6 +519,16 @@ section {
     border-radius: 5px;
     padding: 1.5rem;
     margin: 0 auto;
+  }
+  .not-installed h1 { /*added*/
+    margin: 1rem 0;
+    font-size: 3rem;
+  }
+  .not-installed p { /*added*/
+    padding: 0 1%;
+    line-height: 1;
+    font-size: 1rem;
+    text-align: justify;
   }
   .lottery {
     position: relative;
@@ -527,14 +539,6 @@ section {
   }
   .lottery-details p1 {
     padding: 0 5%;
-  }
-  .not-installed h1 { /*added*/
-    margin: 1rem 0;
-    font-size: 3rem;
-  }
-  .not-installed p { /*added*/
-    padding: 0 5%;
-    text-align: justify;
   }
   .countdown ul {
     display: grid;
