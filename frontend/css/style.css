@@ -85,7 +85,7 @@ header .container {
   background: linear-gradient(to right, var(--font-secondary-color), #6726a3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   font-size: 4rem;
 }
 
@@ -93,7 +93,7 @@ header .container {
   font-size: 1.1rem;
   font-family: var(--font-secondary);
   color: var(--font-secondary-color);
-  line-height: 1.5;
+  line-height: 1.7;
   padding: 0 12%;
   margin-bottom: 1rem;
   text-align: justify;
@@ -126,7 +126,7 @@ header .container {
   background: linear-gradient(to right, var(--font-secondary-color), #6726a3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   font-size: 4rem;
 }
 
@@ -134,7 +134,7 @@ header .container {
   font-size: 1.1rem;
   font-family: var(--font-secondary);
   color: var(--font-secondary-color);
-  line-height: 1.5;
+  line-height: 1.7;
   padding: 0 12%;
   text-align: justify;
   margin-bottom: 1rem;
@@ -506,7 +506,7 @@ section {
   }
   .not-connected h1 { /*added*/
     margin: 1rem 0;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .not-connected p { /*added*/
     padding: 0 1%;
@@ -522,7 +522,7 @@ section {
   }
   .not-installed h1 { /*added*/
     margin: 1rem 0;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .not-installed p { /*added*/
     padding: 0 1%;
