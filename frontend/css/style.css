@@ -533,7 +533,7 @@ section {
     text-align: justify;
   }
   .lottery {
-    position: relative;
+    top: 120%;
   }
   .lottery p {
     padding: 0 5%;
