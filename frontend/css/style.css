@@ -9,7 +9,7 @@
   --font-secondary: "Poppins", sans-serif;  /*arvo*/
   --font-code: "Poppins", sans-serif;  /*roboto*/
   --bg-color: #000000;
-  --bg-color-transparent: #00000091;
+  --bg-color-transparent: #000000b6;
   --font-color:  #ffffff;
   --btn-bg-color: #ffffff;
   --font-secondary-color: #139cec;
@@ -48,7 +48,6 @@ body {
 
 header {
   background-color: var(--accent-color);
-  /*box-shadow: var(--header-shadow);*/
   margin-bottom: 4rem;
 }
 
@@ -493,6 +492,9 @@ section {
   .menu {
     gap: 0.5rem;
   }
+  .header{
+    margin-bottom: 1.5rem;
+  }
   .wallet-btn {
     margin-left: 0;
     padding: 0.5rem 0.5rem;
@@ -565,6 +567,9 @@ section {
   }
   .card {
     padding: 1rem;
+  }
+  .btn {
+    padding: 0.5rem;
   }
   .mint-qty .btn {
     padding: 1rem;
