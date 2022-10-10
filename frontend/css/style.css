@@ -234,6 +234,12 @@ header .container {
   overflow: hidden;
 }
 
+.aso-image {
+  width: 100%;
+  max-width: 50px;
+  height: auto;
+}
+
 /* BUTTONS */
 
 .btn {
