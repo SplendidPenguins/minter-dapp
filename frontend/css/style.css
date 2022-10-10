@@ -234,9 +234,15 @@ header .container {
   overflow: hidden;
 }
 
+.base {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
 .aso-image {
   width: 100%;
-  max-width: 100px;
+  max-width: 120px;
   height: auto;
 }
 
