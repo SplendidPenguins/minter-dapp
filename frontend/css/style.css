@@ -219,6 +219,21 @@ header .container {
   border-radius: 15%;
 }
 
+.as-seen {
+  position: static;
+  background-color: var(--accent-color);
+  color:#ffffff;
+  text-align: center;
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
 /* BUTTONS */
 
 .btn {
