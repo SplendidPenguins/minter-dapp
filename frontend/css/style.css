@@ -242,7 +242,13 @@ header .container {
 
 .aso-image {
   width: 100%;
-  max-width: 120px;
+  max-width: 125px;
+  height: auto;
+}
+
+.aso-image_big {
+  width: 100%;
+  max-width: 100px;
   height: auto;
 }
 
