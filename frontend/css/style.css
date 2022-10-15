@@ -63,18 +63,6 @@ header .container {
   align-items: center;
 }
 
-/*QUNATITY*/
-.quantity{
-  text-align: center;
-  margin-top: 0;
-  font-family: var(--font-primary);
-  color: #ffffff;
-}
-
-.quantity h1{
-  font-size: 1.5rem;
-}
-
 /* NOT CONNECTED */
 .not-connected {
   align-items: center;
