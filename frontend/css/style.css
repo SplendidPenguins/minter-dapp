@@ -66,10 +66,13 @@ header .container {
 /*QUNATITY*/
 .quantity{
   text-align: center;
-  font-size: 2rem;
   margin-top: 0;
   font-family: var(--font-primary);
   color: #ffffff;
+}
+
+.quantity h1{
+  font-size: 2rem;
 }
 
 /* NOT CONNECTED */
